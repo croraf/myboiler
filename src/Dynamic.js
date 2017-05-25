@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Main extends React.Component {
+class Dynamic extends React.Component {
     render () {
         return (
             <div />
@@ -10,4 +10,4 @@ class Main extends React.Component {
     }
 }
 
-export {Main};
+export {Dynamic};

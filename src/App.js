@@ -15,7 +15,7 @@ const App = () => {
                     <Route 
                         path="tests"
                         getComponent={(nextState, cb) => {
-                            import('./routes/Main/Main').then((Main) => { cb(null, Main.Main); });
+                            import('./Dynamic').then((Dynamic) => { cb(null, Dynamic.Dynamic); });
                         }}/>
 
                 </div>
